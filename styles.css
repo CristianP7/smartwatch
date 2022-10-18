@@ -336,7 +336,7 @@ article{
     }
 
     .hero{
-        background: linear-gradient(to bottom, #fd63b0bd, #3493e6b9) , url(./img/mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to bottom, #fd63b0bd, #3493e6b9) , url(img/mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
