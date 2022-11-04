@@ -332,7 +332,7 @@ article {
       #3494e6
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #fd63b0bd, #3493e6b9),
-      url(./img/pexels-energepiccom-110471.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      url(./img/mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .landing {
@@ -345,7 +345,7 @@ article {
   }
 
   .text__container {
-    width: 100%;
+    width: 95%;
     text-align: center;
   }
 
