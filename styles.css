@@ -309,6 +309,10 @@ article {
   color: #fff;
 }
 
+span{
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 95%;
@@ -325,7 +329,7 @@ article {
   }
 
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
