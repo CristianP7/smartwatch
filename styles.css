@@ -333,6 +333,11 @@ span{
     margin: 0 auto;
   }
 
+  .nav{
+    width: 90%;
+    background-color: red;
+  }
+
   .hero {
     background: -webkit-linear-gradient(
       to left,
