@@ -335,7 +335,7 @@ span{
 
   .nav{
     width: 90%;
-    background-color: red;
+    background-color: darkblue;
   }
 
   .hero {
@@ -350,7 +350,7 @@ span{
     }
 
   .nav__menu{
-    display: block;
+    display: inline-block;
     font-size: 1.48rem;
   }
 
