@@ -329,7 +329,7 @@ span{
   }
 
   .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -347,11 +347,18 @@ span{
   .nav__menu{
     display: block;
     font-size: 1.48rem;
+    margin-right: 1.25rem;
   }
 
   .nav{
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
   }
+
+  .nav__logo{
+    margin-left: 1.25rem;
+  }
+
 
 
   .landing {
