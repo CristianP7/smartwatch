@@ -334,7 +334,9 @@ span{
   }
 
   .nav{
-    width: 70%;
+    max-width: 80%;
+    justify-content: space-around;
+    overflow: hidden;
   }
 
   .hero {
