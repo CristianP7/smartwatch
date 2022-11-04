@@ -74,6 +74,10 @@ body {
   width: 100%;
 }
 
+.nav__menu{
+  display: none;
+}
+
 .landing {
   width: 85%;
   display: flex;
@@ -321,7 +325,7 @@ article {
   }
 
   .container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -333,7 +337,10 @@ article {
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #fd63b0bd, #3493e6b9),
       url(./img/mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      background-position: top;
+  }
+
+  .nav__menu{
+    display: block;
   }
 
   .landing {
@@ -346,7 +353,8 @@ article {
   }
 
   .text__container {
-    width: 95%;
+    margin: 0 auto;
+    width: 80%;
     text-align: center;
   }
 
