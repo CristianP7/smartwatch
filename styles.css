@@ -335,13 +335,20 @@ article {
       #ec6ead,
       #3494e6
     ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fd63b0bd, #3493e6b9),
-      url(./img/mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+    background: linear-gradient(to bottom, #fd63b0af, #3493e68e),
+      url(./img/pexels-karolina-grabowska-4379234.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: left;
+    }
 
   .nav__menu{
     display: block;
+    font-size: 1.48rem;
   }
+
+  .nav{
+    justify-content: space-around;
+  }
+
 
   .landing {
     width: 100%;
@@ -386,8 +393,9 @@ article {
   }
 
   .about__text {
-    width: 90%;
+    width:90%;
     text-align: center;
+    padding: 0 0.5rem;
   }
 
   .about__article {
@@ -397,10 +405,18 @@ article {
     justify-content: center;
     margin: 40px 0;
   }
+ 
+  .about__title--color{
+    color: #ec6ead;
+  }
+
+  
 
   .features__copy {
+    width: 90%;
+    margin: 0 auto;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2;
     padding: 0;
   }
 
@@ -415,17 +431,34 @@ article {
     margin-bottom: 4rem;
   }
 
+  .foot{
+    display: inline-block;
+  }
+
+.footer__logo{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
   .footer__list {
     display: inline-block;
-    margin-bottom: 1.25rem;
+    text-align: center;
+    width: 100%;
   }
 
   .footer__links {
     display: inline-block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .footer__text {
     display: none;
   }
+
+  .copyright {
+    margin-top: 1.25rem;
+  }
+
+  
 }
