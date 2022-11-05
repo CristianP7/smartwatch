@@ -315,7 +315,7 @@ article {
 }
 
 span{
-  display: none;
+  display: inline;
 }
 
 @media screen and (max-width: 768px) {
