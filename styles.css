@@ -315,7 +315,7 @@ span{
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 95%;
+    width: 100%;
   }
 
   .footer__text {
@@ -334,8 +334,8 @@ span{
   }
 
   .nav{
-    width: 90%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .hero {
@@ -488,5 +488,18 @@ span{
     margin-top: 1.25rem;
   }
 
+@media screen and (max-width:375px) {
+  *{
+    overflow: hidden;
+  }
+
+  .nav{
+    width: 96%;
+    overflow: hidden;
+
+  }
+
+
+}
   
 }
