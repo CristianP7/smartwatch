@@ -489,14 +489,17 @@ span{
   }
 
 @media screen and (max-width:400px) {
-  *{
+
+
+  .nav{
+    width: 90%;
     overflow: hidden;
   }
 
-  .nav{
-    width: 96%;
-    overflow: hidden;
-
+  .bars__menu{
+    position: absolute;
+    top: 35px;
+    left: 350px;
   }
 
 
