@@ -337,7 +337,7 @@ span{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 820px) {
   .nav__links {
     display: none;
   }
@@ -522,7 +522,7 @@ span{
   .bars__menu{
     position: absolute;
     top: 35px;
-    left: 370px;
+    left: 330px;
   }
 
 
