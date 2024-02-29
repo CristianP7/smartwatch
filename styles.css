@@ -8,13 +8,13 @@
 }
 
 body {
-  max-width: 1400px;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
 
 .container {
   width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -79,14 +79,14 @@ img{
   width: 100%;
 }
 
-.nav__menu{
+.bars__menu{
   display: none;
 }
 
 .landing {
-  width: 85%;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-self: center;
 }
 
@@ -100,15 +100,15 @@ img{
 }
 
 .text__title {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 600;
   margin-bottom: 2rem;
   line-height: 1.25;
 }
 
 .text__copy {
-  font-size: 1.2rem;
-  line-height: 1.45;
+  font-size: 1.35rem;
+  line-height: 2;
   margin-bottom: 3.5rem;
 }
 
@@ -119,17 +119,21 @@ img{
 
 .text__cta {
   width: 180px;
+  padding: 20px 0;
   text-align: center;
   background-color: #fff;
-  padding: 12px 46px;
   border-radius: 3rem;
   color: #ec6ead;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1.25rem;
 }
 
 .text__cta:hover {
-  text-decoration: underline;
+  background-color: #ec6ead ;
+  transition: .3s;
+  color: #fff;
+
 }
 
 .picture__img {
@@ -215,8 +219,7 @@ article {
 /* Catalog */
 
 .catalog {
-  width: 80%;
-  height: 100vh;
+  padding: 120px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -320,11 +323,17 @@ span{
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 
   .footer__text {
     display: none;
+  }
+
+  .catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
   }
 }
 
@@ -494,7 +503,7 @@ span{
     margin-top: 1.25rem;
   }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:425px) {
 
 
   .nav{
@@ -505,10 +514,33 @@ span{
   .bars__menu{
     position: absolute;
     top: 35px;
-    left: 350px;
+    left: 370px;
   }
 
 
+} 
 }
-  
+
+@media screen and (max-width:370px){
+  nav{
+    width: 70%;
+  }
+
+  .bars__menu{
+    top: 35px;
+    left: 320px;
+  }
+}
+
+@media screen and (max-width:342px){
+  .bars__menu{
+    left: 290px
+  }
+}
+
+@media screen and (max-width:300px){
+
+  .bars__menu{
+    left: 250px;
+  }
 }
