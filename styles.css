@@ -343,13 +343,16 @@ span{
   }
 
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
   .nav{
-    width: 100%;
     justify-content: space-between;
+  }
+
+  .bars__menu{
+    display: inline-block;
   }
 
   .hero {
@@ -400,6 +403,11 @@ span{
     flex-direction: column;
     justify-content: center;
     align-self: center;
+  }
+
+  .text__cta{
+    width: 200px;
+    padding: 40px 0;
   }
 
   .text__container {
